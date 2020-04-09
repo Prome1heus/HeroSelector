@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HeroSelector/static/css/main.5f361e03.chunk.css",
+    "main.js": "/HeroSelector/static/js/main.fe6aeb73.chunk.js",
+    "main.js.map": "/HeroSelector/static/js/main.fe6aeb73.chunk.js.map",
+    "runtime-main.js": "/HeroSelector/static/js/runtime-main.e2bf90ee.js",
+    "runtime-main.js.map": "/HeroSelector/static/js/runtime-main.e2bf90ee.js.map",
+    "static/js/2.31898ea4.chunk.js": "/HeroSelector/static/js/2.31898ea4.chunk.js",
+    "static/js/2.31898ea4.chunk.js.map": "/HeroSelector/static/js/2.31898ea4.chunk.js.map",
+    "index.html": "/HeroSelector/index.html",
+    "precache-manifest.c4c6a4b629cc21ef00244e32549b399b.js": "/HeroSelector/precache-manifest.c4c6a4b629cc21ef00244e32549b399b.js",
+    "service-worker.js": "/HeroSelector/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/HeroSelector/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.31898ea4.chunk.js.LICENSE.txt": "/HeroSelector/static/js/2.31898ea4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/HeroSelector/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2bf90ee.js",
+    "static/js/2.31898ea4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.fe6aeb73.chunk.js"
+  ]
+}
