@@ -13,6 +13,10 @@ class App extends Component {
     }
   }
 
+  componentWillMount() {
+    document.title = 'HeroSelector'
+  }
+
   componentDidMount() {
     fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/all.json')
       .then(response=> response.json())
@@ -29,7 +33,7 @@ class App extends Component {
       return hero.name.toLowerCase().includes(searchfield.toLowerCase());
     })
     return !heros.length ?
-      <h1>Loading</h1> :
+      <h1 className='tc'>Loading</h1> :
       (
         <div className='tc'>
           <h1 className='f2'>HEROSELECTOR</h1>
