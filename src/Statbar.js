@@ -24,9 +24,9 @@ class Statbar extends React.Component {
 
   render(props) {
     return(
-      	<div style={{display: 'flex', justifyContent: 'space-between', margin: '5px'}}>
-      		<p style={{fontSize: 10}}> {this.props.name} </p>
-        	<canvas ref={this.canvas} width={100} height={5} style={{border: '1px solid black'}}/>
+      	<div style={{display: 'flex', justifyContent: 'space-between', alignContent: 'center', margin: '1px'}}>
+      		<p style={{fontSize: 12}}> {this.props.name.toUpperCase()} </p>
+        	<canvas ref={this.canvas} width={100} height={5} style={{border: '1px solid black', height: '5px', alignSelf: 'center'}}/>
       	</div>
     )
   }
