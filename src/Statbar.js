@@ -10,7 +10,7 @@ class Statbar extends React.Component {
   fillRect(value){
   	const ctx = this.canvas.current.getContext("2d");
     ctx.clearRect(0, 0, 100, 5)
-    ctx.fillStyle = "#0000FF"
+    ctx.fillStyle = "#e69900"
     ctx.fillRect(0, 0, this.props.value, 5)
   }
 
