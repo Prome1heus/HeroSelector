@@ -29,9 +29,13 @@ class App extends Component {
 
   render() {
     const { heros, searchfield } = this.state;
-    const filteredHeros = heros.filter(hero =>{
-      return hero.name.toLowerCase().includes(searchfield.toLowerCase());
+    var filteredHeros = heros.filter(hero =>{
+      return hero.name.toLowerCase().startsWith(searchfield.toLowerCase());
     })
+  
+    filteredHeros = filteredHeros.concat(heros.filter(hero =>{
+      return (!hero.name.toLowerCase().startsWith(searchfield.toLowerCase()) && hero.name.toLowerCase().includes(searchfield.toLowerCase()));
+    }));
     return !heros.length ?
       <h1 className='tc'>Loading</h1> :
       (
