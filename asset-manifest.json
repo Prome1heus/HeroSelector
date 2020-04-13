@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HeroSelector/static/css/main.01c2e82f.chunk.css",
-    "main.js": "/HeroSelector/static/js/main.97040c86.chunk.js",
-    "main.js.map": "/HeroSelector/static/js/main.97040c86.chunk.js.map",
+    "main.js": "/HeroSelector/static/js/main.74fd267a.chunk.js",
+    "main.js.map": "/HeroSelector/static/js/main.74fd267a.chunk.js.map",
     "runtime-main.js": "/HeroSelector/static/js/runtime-main.e2bf90ee.js",
     "runtime-main.js.map": "/HeroSelector/static/js/runtime-main.e2bf90ee.js.map",
     "static/css/2.3b6f1bda.chunk.css": "/HeroSelector/static/css/2.3b6f1bda.chunk.css",
     "static/js/2.82d9f1df.chunk.js": "/HeroSelector/static/js/2.82d9f1df.chunk.js",
     "static/js/2.82d9f1df.chunk.js.map": "/HeroSelector/static/js/2.82d9f1df.chunk.js.map",
     "index.html": "/HeroSelector/index.html",
-    "precache-manifest.d9b1dcf289b01eabc234ab9623fcbd12.js": "/HeroSelector/precache-manifest.d9b1dcf289b01eabc234ab9623fcbd12.js",
+    "precache-manifest.96fdf5b11f6f6b41548b069c35d6168a.js": "/HeroSelector/precache-manifest.96fdf5b11f6f6b41548b069c35d6168a.js",
     "service-worker.js": "/HeroSelector/service-worker.js",
     "static/css/2.3b6f1bda.chunk.css.map": "/HeroSelector/static/css/2.3b6f1bda.chunk.css.map",
     "static/css/main.01c2e82f.chunk.css.map": "/HeroSelector/static/css/main.01c2e82f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3b6f1bda.chunk.css",
     "static/js/2.82d9f1df.chunk.js",
     "static/css/main.01c2e82f.chunk.css",
-    "static/js/main.97040c86.chunk.js"
+    "static/js/main.74fd267a.chunk.js"
   ]
 }
