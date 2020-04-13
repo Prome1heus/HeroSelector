@@ -8,7 +8,8 @@ class CardList extends Component {
 		<div style={{display: 'flex',
   			flexWrap: 'wrap',
   			alignItems: 'center',
-  			justifyContent: 'space-around'}}>
+  			justifyContent: 'space-around'
+  		}}>
 
          	{this.props.robots.map((user, i) => 
 				 <Card 
